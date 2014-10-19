@@ -8,8 +8,8 @@ import Debug.Trace
 
 main = do
   trace "foo bar"
-  tmpl <- compile "<div>{{.}}</div>"
-  result <- template tmpl "foo" >>= toString >>= J.create
+  tmplOutput <- return $ template (compile "<div>{{.}}</div>") "foo"
+  result <- J.create $ toString tmplOutput
   main <- J.select "#main"
   J.append result main
 
