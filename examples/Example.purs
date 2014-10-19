@@ -9,10 +9,8 @@ import Debug.Trace
 main = do
   trace "foo bar"
   tmpl <- compile "<div>{{.}}</div>"
-  result <- template tmpl "foo"
-  jqRes <- toJQuery result
+  result <- template tmpl "foo" >>= toString >>= J.create
   main <- J.select "#main"
-  J.append jqRes main
-  return "Fpo"
+  J.append result main
 
 

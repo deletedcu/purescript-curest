@@ -1,5 +1,5 @@
 module Handlebars
-(compile, template, Template(..),Handlebars(..), TemplateResult(..), toJQuery)
+(compile, template, Template(..),Handlebars(..), TemplateResult(..), toString)
 where
 
 import Control.Monad.Eff
@@ -8,7 +8,7 @@ foreign import data Template :: *
 foreign import data Handlebars :: !
 foreign import data TemplateResult :: * 
 
-import qualified Control.Monad.JQuery as J
+
 
 foreign import compile
 """function compile(source){
@@ -26,10 +26,10 @@ foreign import template
      ;}
   }""":: forall a eff. Template -> a -> Eff (template :: Handlebars | eff) TemplateResult
 
-foreign import toJQuery
+foreign import toString
 """
-function toJQuery(result){
+function toString(result){
   return function(){
     return result;
   };
-}""" :: forall eff. TemplateResult -> Eff (template :: Handlebars | eff) J.JQuery
+}""" :: forall eff. TemplateResult -> Eff (template :: Handlebars | eff) String
