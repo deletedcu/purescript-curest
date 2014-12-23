@@ -1,6 +1,6 @@
 {
   "name": "purescript-handlebars",
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "grunt test"
   },
