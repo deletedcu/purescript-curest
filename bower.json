@@ -1,7 +1,6 @@
 {
   "name": "purescript-handlebars",
-  "version": "0.0.1",
-  "homepage": "https://github.com/wfaler/purescript-handlebars",
+  "homepage": "https://github.com/purescript-contrib/purescript-handlebars",
   "description": "purescript-handlebars",
   "keywords": [
     "purescript"
@@ -19,7 +18,7 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-jquery": "*",
-    "handlebars":  "2.0.0"
+    "purescript-jquery": "~0.3.0",
+    "handlebars": "2.0.0"
   }
 }
