@@ -1,7 +1,5 @@
 "use strict";
 
-// module Text.Handlebars
-
 exports.handlebars = function(source) {
     var hb = typeof Handlebars === 'undefined' ? require('handlebars') : Handlebars;
     var template = hb.compile(source);

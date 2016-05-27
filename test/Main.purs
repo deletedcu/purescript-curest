@@ -1,9 +1,7 @@
 module Test.Main (main) where
 
 import Prelude
-import Text.Handlebars
-import Control.Monad.Eff.Console
+import Text.Handlebars (handlebars)
+import Control.Monad.Eff.Console (log)
 
 main = log $ handlebars "Hello, {{.}}!" "World"
-
-
