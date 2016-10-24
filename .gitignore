@@ -1,6 +1,6 @@
-.psci
-bower_components
-node_modules
-output
-tmp
-examples/generated.js
+.psci*
+bower_components/
+output/
+.psc-package
+.psc-ide-port
+node_modules/

@@ -1,8 +1,7 @@
 "use strict";
 
-exports.handlebars = function(source) {
-    var hb = typeof Handlebars === 'undefined' ? require('handlebars') : Handlebars;
-    var template = hb.compile(source);
+exports.compile = function(source) {
+    var template = require('handlebars').compile(source);
     return function(context) {
         return template(context);
     };
