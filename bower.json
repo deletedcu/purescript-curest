@@ -17,6 +17,10 @@
     "Gruntfile.js",
     "package.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript-contrib/purescript-handlebars.git"            
+  },
   "devDependencies": {
     "purescript-console": "^2.0.0"
   }
