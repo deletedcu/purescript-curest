@@ -1,6 +1,6 @@
 {
     "name": "handlebars",
     "source": "https://github.com/purescript/package-sets.git",
-    "set": "psc-0.10.1",
+    "set": "psc-0.11.1",
     "depends": []
 }
