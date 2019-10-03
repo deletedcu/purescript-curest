@@ -1,4 +1,4 @@
-# purescript-handlebars
+# purescript-curest
 
 [![Maintainer: paf31](https://img.shields.io/badge/maintainer-paf31-lightgrey.svg)](http://github.com/paf31) 
 
