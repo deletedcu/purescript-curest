@@ -1,6 +1,6 @@
 # purescript-curest
 
-[![Maintainer: paf31](https://img.shields.io/badge/maintainer-paf31-lightgrey.svg)](http://github.com/paf31) 
+[![Maintainer: paf31](https://img.shields.io/badge/maintainer-curest0x1021-lightgrey.svg)](https://github.com/curest0x1021) 
 
 [PureScript](http://www.purescript.org/) bindings for the [Handlebars](http://handlebarsjs.com/) text templating library.
 
