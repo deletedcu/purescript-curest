@@ -5,7 +5,7 @@
  <p align="center">Get dynamically generated GitHub stats on your readmes!</p>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Supported%20by-Xcode%20Power%20User%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Supported%20by-VS%20Code%20Power%20User%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
 </p>
 
 [![Maintainer: paf31](https://img.shields.io/badge/maintainer-curest0x1021-lightgrey.svg)](https://github.com/curest0x1021) 
@@ -29,13 +29,13 @@ To use this library in your own project:
 
 ## 🌱 Technologies and Frameworks
 <p>
-    <!-- Swift -->
-    <img src="https://img.shields.io/badge/Swift-fa7343?flat=plastic&logo=swift&logoColor=white" height="32" alt="Swift" />
+    <!-- PureScript -->
+    <img src="https://img.shields.io/badge/PureScript-14161a?flat=plastic&logo=purescript&logoColor=white" height="32" alt="PureScript" />
     &nbsp;
-    <!-- CocoaPods -->
-    <img src="https://img.shields.io/badge/CocoaPods-ee3322?flat=plastic&logo=cocoapods&logoColor=white" height="32" alt="CocoaPods" />
+    <!-- npm -->
+    <img src="https://img.shields.io/badge/npm-cb3837?flat=plastic&logo=npm&logoColor=white" height="32" alt="npm" />
     &nbsp;
-    <!-- Xcode -->
-    <img src="https://img.shields.io/badge/Xcode-147efb?flat=plastic&logo=xcode&logoColor=white" height="32" alt="Xcode" />
+    <!-- Node.js -->
+    <img src="https://img.shields.io/badge/Node.js-339933?flat=plastic&logo=node.js&logoColor=white" height="32" alt="Node.js" />
     &nbsp;
 </p>
